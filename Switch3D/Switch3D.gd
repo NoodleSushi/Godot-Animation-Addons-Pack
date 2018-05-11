@@ -1,5 +1,5 @@
 tool
-extends Node2D
+extends Spatial
 enum TYPE {ROUND, FLOOR, CEIL}
 enum SWITCH {DISABLE,INTEGER,FLOAT,NAME}
 export(SWITCH) var Switch_Type = SWITCH.INTEGER setget Switch_Change
